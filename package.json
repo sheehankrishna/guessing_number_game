@@ -1,0 +1,11 @@
+{
+  "name": "guessing_number_game",
+  "version": "1.0.0",
+  "description": "the program will guess your number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sheehan.krishna@outlook.com",
+  "license": "ISC"
+}

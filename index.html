@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>The Ultimate Number Guessing Game!</h1>
+    <h2>Has someone ever read your mind? If yes, ready for another go? If no, then get ready to be oofed! Try out this
+        guessing game and let your computer get the better of you!</h2>
+    <h3>Rules: <br>
+        Pick a Number- keep it to yourself! <br>
+        Relax
+    </h3>
+    <p>Minimum number: 0 <br> Maximum number: 1,000</p>
+    <p>How many guesses needed: 10 or less</p>
+    <button onclick="handleStartGame()">Start Game</button>
+   <p>Program's answer: <span id="myanswer"></span></p>
+    <p>
+        <button onclick="handleCorrect()">Correct</button>
+        <button onclick="handleTooHigh()">Too High!</button>
+        <button onclick="handleTooLow()">Too Low!</button>
+    </p>
+    <p id="mymessage"></p>
+
+    <button onclick="handleResetGame()">Reset Game</button>
+    <p id="reset"></p>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
